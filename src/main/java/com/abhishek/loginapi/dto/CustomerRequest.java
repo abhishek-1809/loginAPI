@@ -8,10 +8,10 @@ public record CustomerRequest (
     @NotEmpty(message = "Customer should be present")
     @NotBlank(message = "Customer should be present")
     @JsonProperty("first_name")
-    String first_name,
+    String firstName,
 
     @JsonProperty("last_name")
-    String last_name,
+    String lastName,
 
     @NotNull(message = "Customer email is required")
     @Email(message = "Email must be in correct format")
