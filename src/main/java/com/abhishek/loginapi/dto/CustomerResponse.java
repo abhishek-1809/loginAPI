@@ -7,7 +7,7 @@ public record CustomerResponse(
         String firstName,
 
         @JsonProperty("last_name")
-                String lastName,
+        String lastName,
 
         @JsonProperty("email")
         String email
